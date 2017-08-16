@@ -49,11 +49,11 @@ public class webdriverdemo {
 		System.out.println("one--");
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/input"))
-				.sendKeys("15101562443");
+				.sendKeys("phone");
 		System.out.println("two--");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[3]/input"))
-				.sendKeys("2602690wxhwzj");
+				.sendKeys("password");
 		System.out.println("three--");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div[2]/div[1]/div/div/div[2]/div/div[2]/div[2]/div[2]/div[5]")).click();
